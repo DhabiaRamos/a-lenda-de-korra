@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Avatar: A lenda de Korra</title>
+</head>
+
+<body>
+
+    <div class="form-mask" onclick="sumirForm()"></div>
+
+    <header>
+
+        <a href="https://www.netflix.com/br/title/70142405" target="_blank">
+
+            <img src="./assets/icon.png" alt="icon de avatar" id="icon-avatar">
+
+        </a>
+
+        <a href="">Sobre</a>
+        <a onclick="aparecerSinopse()">Sinopse</a>
+        <a onclick="aparecerForm()">Comentar</a>
+
+    </header>
+
+    <main>
+        <section id="left-section">
+
+            <a href="https://web.prod.ftl.netflix.com/br/title/80027563" target="_blank">
+                <img src="./assets/logo.png" alt="Logo da serie Avatar: a Lenda de Korra" id="logo-avatar">
+            </a>
+
+            <p>A Lenda de Korra é uma série animada de televisão americana situado no Universo de Avatar como uma série
+                sequela de Avatar: A Lenda de Aang.</p>
+
+            <p class="p-quote">"Você nunca deve ceder ao desespero. Se permitir escorregar por essa
+                estrada é se entregar aos seus instintos mais baixos. Nos momentos mais sombrios,
+                a esperança é algo que você dá a si mesmo. Esse é o significado da força interior."
+            </p>
+
+            <p id="p-sinopse"> <strong>Sinopse:</strong> Destemida e rebelde, a jovem Korra embarca
+                numa perigosa jornada para se tornar um verdadeiro Avatar. Capaz de controlar
+                os elementos, ela agora precisa defender sua cidade das forças diabólicas que
+                habitam os mundos físico e espiritual. Mas, enquanto tenta impedir o avanço do mal,
+                Korra luta para encontrar o equilíbrio dentro de si mesma.</p>
+
+            <button onclick="aparecerForm()">Comente sobre</button>
+
+        </section>
+
+        <section id="right-section">
+
+            <img onclick="modoAvatar()" id="render-avatar" src="./assets/render.png" alt="render do avatar Korra"
+                loading="lazy">
+
+        </section>
+
+    </main>
+
+    <div id="div-video">
+
+        <video id="video-avatar" src="./assets/trailer2.mp4" autoplay muted loop></video>
+
+        <div id="mask-video"></div>
+
+    </div>
+
+    <div id="contact-links">
+
+        <a href="https://wa.me/5535999999999?text=Venha+discutir+sobre+a+seria+%22Avatar%3A+A+Lenda+de+Korra%22"
+            target="_blank" class="link-whatsapp">
+
+            <img src="./assets/whatsapp_icon.png" alt="link para ir pro whatsapp" loading="lazy">
+
+        </a>
+
+        <a href="https://github.com/DhabiaRamos" target="_blank" class="link-github">
+
+            <img src="./assets/github_icon.png" alt="link para o github da criadora da página" loading="lazy">
+
+        </a>
+
+    </div>
+
+    <form action="https://formcarry.com/s/6jsaWvlx92C" method="POST" enctype="multipart/form-data"
+        class="form-comentar">
+
+        <input type="text" placeholder="Digite seu nome" name="nome" autofocus>
+        <input type="tel" name="telefone" placeholder="Digite seu número">
+        <textarea name="comentario" cols="20" rows="10"
+            placeholder="Comente sobre o que achou de avatar a lenda de korra"></textarea>
+        <button type="submit">Enviar Comentario</button>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
