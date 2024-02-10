@@ -26,7 +26,7 @@
 
 <p> :iphone: Visão pelo Celular:</p>
 <img src="https://github.com/DhabiaRamos/a-lenda-de-korra/blob/master/project%20images/projeto-avatar-visualizar3.png?raw=true" />
-<img src="" />
+<img src="https://github.com/DhabiaRamos/a-lenda-de-korra/blob/master/project%20images/projeto-avatar-visualizar4.png?raw=true" />
 
 <br><br>
 
